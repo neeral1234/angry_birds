@@ -17,7 +17,9 @@ function setup(){
 
 
     ground = new Ground(600,height,1200,20);
+    // creating platform for the slingshot
     platform = new Ground(150, 305, 300, 170);
+    
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
@@ -61,4 +63,5 @@ function draw(){
 
     bird.display();
     platform.display();
+    //display comment
 }
